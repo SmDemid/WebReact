@@ -137,7 +137,7 @@ function DndPage() {
                     );
                 })}
             </DragDropContext>
-        <Link to="/todo">To Todo</Link>
+        <Link to="/WebReact">To Todo</Link>
         </div>
     );
 }

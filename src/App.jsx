@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/todo" element={<TodoPage />} />
+        <Route path="/WebReact" element={<TodoPage />} />
         <Route path="/dnd" element={<DndPage />} />
       </Routes>
     </Router>
