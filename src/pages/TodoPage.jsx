@@ -54,7 +54,7 @@ function TodoPage() {
         <button className='Sortincompleted' onClick={() => SetSort('incomplete')}>Не выполненые</button>
       </div>
       <TodoList todos={sortlist} toggleTodo={toggleTodo} Remove={Remove}/>
-      <Link to="/WebReact/dnd">TO DND</Link>
+      <Link to="/dnd">TO DND</Link>
     </div>
   );
 }
